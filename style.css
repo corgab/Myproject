@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.overlay{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10%;
+    width: 900px;
+    margin-left: -150px;
+}
+
+.logo{
+    width: 250px;
+}
+
+.titolo{
+    color: lime;
+}
+
+.selector{
+    background-color: lime;
+    height: 30px;
+}
+
+.selector button{
+    margin-top: 5px;
+}
+
+.lista{
+    text-align: left;
+    color: white;
+}
+
+.checkbox{
+    size: bold;
+}
+
+.lista p{
+    margin: 2px;
+}
+.checkbox-text{
+    font-size: 30px;
+}
+
+.caricagialla{
+    width: 200px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.caricaverde{
+    width: 400px;
+    height: 30px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.caricarossa{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.monopattino{
+    margin: 10px;
+}
